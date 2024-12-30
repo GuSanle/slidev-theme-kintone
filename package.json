@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-kintone",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "keywords": [
     "slidev-theme",
@@ -13,6 +13,9 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "files": [
+    "public/**"
+  ],
   "scripts": {
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
