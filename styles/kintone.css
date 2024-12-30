@@ -1,3 +1,9 @@
+:root {
+  --kintone-header-img: '';
+  --kintone-footer-img: '';
+  --kintone-logo-img: '';
+}
+
 .kintone-layout {
   @apply px-14 py-10;
   padding-top: calc(60px + 2.5rem);
@@ -11,7 +17,7 @@
   left: 0;
   right: 0;
   height: 60px;
-  background-image: url('/header.png');
+  background-image: var(--kintone-header-img);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;
@@ -24,7 +30,7 @@
   left: 0;
   right: 0;
   height: 60px;
-  background-image: url('/footer.png');
+  background-image: var(--kintone-footer-img);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: contain;
@@ -37,7 +43,7 @@
   right: 20px;
   width: 100px;
   height: 40px;
-  background-image: url('/kintone.png');
+  background-image: var(--kintone-logo-img);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
