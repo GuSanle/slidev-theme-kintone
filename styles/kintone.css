@@ -1,0 +1,76 @@
+.kintone-layout {
+  @apply px-14 py-10;
+  padding-top: calc(60px + 2.5rem);
+  padding-bottom: calc(60px + 2.5rem);
+  position: relative;
+}
+
+.kintone-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-image: url('/header.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  z-index: 10;
+}
+
+.kintone-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-image: url('/footer.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+  z-index: 10;
+}
+
+.kintone-logo {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  width: 100px;
+  height: 40px;
+  background-image: url('/kintone.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 11;
+}
+
+
+
+/* 主标题 h1 保持醒目 */
+h1 {
+  color: #000000; /* 接近黑色但稍微柔和 */
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* 二级标题 h2 使用深蓝灰色 */
+h2 {
+  color: #2c3e50; /* 深蓝灰色，类似 PPT 中常用的副标题颜色 */
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* 三级标题 h3 使用稍浅的蓝灰色 */
+h3 {
+  color: #34495e; /* 比 h2 稍浅的蓝灰色 */
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: 0.4rem;
+}
+
+/* 正文文本颜色 */
+p, li {
+  color: #4a4a4a; /* 标准灰色文本 */
+  line-height: 1.6;
+}

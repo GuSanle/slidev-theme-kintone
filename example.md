@@ -13,39 +13,55 @@ Presentation slides for developers
 </div>
 
 ---
-
-# What is Slidev?
-
-Slidev is a slide maker and presentation tool designed for developers. It includes the following features:
-
-- 📝 **Text-based** - focus on your content with Markdown, then style it later
-- 🎨 **Themable** - themes can be shared and reused as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
+layout: kintone
 ---
 
-# Navigation
+::title::
 
-Hover on the bottom-left corner to see the navigation's controls panel
+# neco背景
 
-## Keyboard Shortcuts
+::content::
 
-|     |     |
-| --- | --- |
-| <kbd>space</kbd> / <kbd>tab</kbd> / <kbd>right</kbd> | next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
+<div class="mt-16">
 
+- **Neco** 是一个基于 **Kubernetes** 的 [cybozu.com](http://cybozu.com/) 云平台。
+
+- 使用 **多租户模式**。
+
+- 最大的用户就是我们的 **kintone**。
+  
+</div>
+
+---
+layout: two-cols-kintone
+---
+
+::title::
+
+# Neco环境类型
+
+::left::
+
+## 开发环境 <carbon-development class="inline"/>
+
+- 用于测试、验证和性能评估
+- 可从内部业务终端访问
+- 维护周期：月度重启
+- 资源受限，部分环境仅限特定团队使用
+
+::right::
+
+## 生产环境 <carbon-cloud class="inline"/>
+
+- 仅可从运维终端访问
+- 严格的 ISMS 管控
+- 维护周期：季度重启
+- 完整的容灾备份机制
+
+::bottom::
+<div class="ft-12 text-gray-500">
+*注：目前部署于多个数据中心（TY3/MDC），支持跨中心集群部署
+</div>
 ---
 layout: image-right
 image: https://cover.sli.dev

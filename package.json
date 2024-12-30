@@ -1,11 +1,15 @@
 {
   "name": "slidev-theme-kintone",
-  "version": "0.0.0",
+  "version": "0.1",
   "type": "module",
   "keywords": [
     "slidev-theme",
-    "slidev"
+    "slidev",
+    "kintone"
   ],
+  "author": "slgu<slgu@cybozu.cn>",
+  "homepage": "https://github.com/GuSanle",
+  "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
   },
@@ -14,6 +18,10 @@
     "dev": "slidev example.md --open",
     "export": "slidev export example.md",
     "screenshot": "slidev export example.md --format png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuSanle/slidev-theme-kintone.git"
   },
   "dependencies": {
     "@slidev/types": "^0.50.0"
