@@ -47,36 +47,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  z-index: 11;
+  /* 修改这些属性 */
+  z-index: 1;  /* 改为较小的值，确保在内容下层 */
+  pointer-events: none;  /* 使其不影响鼠标事件 */
+  opacity: 0.8;  /* 可选：降低透明度使其更像水印 */
 }
 
 
 
-/* 主标题 h1 保持醒目 */
-h1 {
-  color: #000000; /* 接近黑色但稍微柔和 */
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-/* 二级标题 h2 使用深蓝灰色 */
-h2 {
-  color: #2c3e50; /* 深蓝灰色，类似 PPT 中常用的副标题颜色 */
-  font-weight: 600;
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-/* 三级标题 h3 使用稍浅的蓝灰色 */
-h3 {
-  color: #34495e; /* 比 h2 稍浅的蓝灰色 */
-  font-weight: 500;
-  font-size: 1.25rem;
-  margin-bottom: 0.4rem;
-}
-
-/* 正文文本颜色 */
-p, li {
-  color: #4a4a4a; /* 标准灰色文本 */
-  line-height: 1.6;
-}

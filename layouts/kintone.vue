@@ -23,11 +23,10 @@
   margin: 2em;
 }
 
-.content {
-  margin: 2em;
-}
-
+.content,
 .bottom {
+  position: relative;
+  z-index: 2;
   margin: 2em;
 }
 </style>
